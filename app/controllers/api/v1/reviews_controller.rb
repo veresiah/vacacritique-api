@@ -16,4 +16,8 @@ class Api::V1::ReviewsController < ApplicationController
         end 
     end 
 
+    private 
+    def review_params 
+        params.require(:review).permit(:rating, :location, :accommodation, :details)
+    end 
 end
