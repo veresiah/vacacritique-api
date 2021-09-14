@@ -7,7 +7,7 @@ class Api::V1::CategoriesController < ApplicationController
 
     def create
         category = Category.create(category_params)
-        render json: category 
+        render json: category, except: [:created_at, :updated_at]
     end 
 
     def destroy 
