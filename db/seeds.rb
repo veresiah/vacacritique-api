@@ -1,7 +1,7 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Category.create([
+    {name: 'Family Fun', description: 'Disney World and Dorney Park are just the beginning to memorable family getaways. Explore world famous National Parks, all-inclusive resort stays, and maybe even something right in your backyard.'}, 
+    {name: 'Honeymoon and Romance', description: 'The ultimate romantic destination can be anywhere from the crystal clear waters of the Maldives to the pyramids in Egypt. Take the ultimate trip for two and build a lasting bond.'}, 
+    {name: 'Cruises', description: 'Make unlimted memories on unlimted mileage with a weekend cruise or be a world traveller by grabbing your ticket to the Viking World Cruse, or anything in between! The world is your oyster.'}, 
+    {name: 'Caribbean Escape', description: 'Visit any Caribbean coast and bask in the sun, drink pina coladas and satisfy the adventurer in your with endless water activities, rich cultural and natural excursions.'}, 
+    {name: 'Unique Getaways', description: 'Let out the daredevil in you or get out of your comfort zone and be prepared for an unforgettable experience. May we suggest your own airplane stay, or be greeted each morning with giraffes, or maybe a few night in your own unique jail cell. Clearly the possibilities are endless.'}, 
+])
